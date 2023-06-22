@@ -1,0 +1,1577 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+@media (min-width:150px) {
+    body {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(0, 4, 211) 100%);
+        overflow-x: hidden;
+    }
+
+    .headerContainer {
+        background-image: url(../imagenes/pngfind.com-imagenes-en-png-2050629.png);
+        background-size: cover;
+        width: 99%;
+    }
+
+    .logo {
+        margin-left: 30px;
+        width: 200px;
+        height: auto;
+    }
+
+    .logo:hover {
+        animation-name: agrandar;
+        animation-duration: 700ms;
+        animation-fill-mode: forwards;
+    }
+
+    .logo::after {
+        animation-name: agrandar;
+        animation-duration: 700ms;
+        animation-direction: reverse;
+    }
+
+    .button {
+        width: 170px;
+        height: 100px;
+        color: white;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    .button:hover {
+        background-color: rgba(255, 255, 255, 0.185);
+        border: 1px dashed rgba(0, 0, 0, 0.205);
+        animation-name: agrandar;
+        animation-duration: 1s;
+
+    }
+
+    .button:active {
+        background-color: rgba(255, 255, 255, 0.397);
+    }
+
+    .btn-1 {
+        margin-left: 300px;
+    }
+
+    .linea {
+        height: 4px;
+        width: 100%;
+        background: rgb(35, 255, 0);
+        background: linear-gradient(90deg, rgba(34, 255, 0, 0.863) 0%, rgb(255, 238, 0) 53%, rgba(255, 0, 0, 1) 100%);
+        margin-bottom: 1px;
+    }
+
+    .info {
+        width: 100%;
+        height: 900px;
+        text-align: center;
+        background-image: url(../imagenes/9296522_26507.jpg);
+        background-size: 99%;
+
+        background-size: 140%;
+        opacity: 98%;
+    }
+
+    .presentacion::first-letter {
+        font-size: 150%;
+    }
+
+    .presentacion {
+        width: 80%;
+        margin-top: 30px;
+        margin-left: 10%;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(0, 0, 0, 0.349);
+        color: rgb(0, 0, 0);
+        font-family: 'Caveat', cursive;
+        font-size: 1.4rem;
+    }
+
+    .button p::first-letter {
+        font-size: 120%;
+    }
+
+    .etiquetas {
+        width: 190px;
+        height: 240px;
+        background-color: rgb(212, 212, 212);
+        overflow-y: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.192);
+        border-radius: 5px;
+        overflow-x: hidden;
+    }
+
+    .etiquetas:hover {
+        animation-fill-mode: forwards;
+        animation-name: verTecnologia;
+        animation-duration: 600ms;
+    }
+
+    .etiquetas a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 1.4rem;
+    }
+
+    .etiquetas h4 {
+        color: rgb(0, 0, 0);
+        -webkit-text-stroke: 1px rgba(157, 216, 255, 0.808);
+    }
+
+    #html {
+        width: 195px;
+        height: 200px;
+    }
+
+    #css {
+        margin-top: 13px;
+        width: 180px;
+    }
+
+    #js {
+        margin-top: 40px;
+        width: 156px;
+    }
+
+    #bootstrap {
+        margin-top: 35px;
+        width: 160px;
+    }
+
+    #sass {
+        margin-top: 25px;
+        width: 190px;
+    }
+
+    #react {
+        margin-top: 26px;
+        width: 170px;
+    }
+
+    .educacion {
+        gap: 10px;
+        display: flex;
+        display: 150%;
+    }
+
+    .container-etiquetas {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    h1 {
+        font-family: 'Raleway', sans-serif;
+        -webkit-text-stroke: 1px rgba(7, 224, 0, 0.171);
+        color: black;
+        background-color: rgba(250, 235, 215, 0.281);
+    }
+
+    h2 {
+        font-family: 'Qwigley', cursive;
+    }
+
+    .frase {
+        margin-left: 76%;
+        width: 300px;
+    }
+
+    p span {
+        color: rgb(0, 117, 146);
+    }
+
+    .fondo {
+        width: 100%;
+        height: 220px;
+        background-image: url(../imagenes/fondo\ 2.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        opacity: 90%;
+    }
+
+    .fondo2 {
+        width: 100%;
+        height: 650px;
+        background-image: url(../imagenes/fondo3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        opacity: 96%;
+
+    }
+
+    .cursos {
+        width: 100%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cursos__etiquetas {
+        background-color: rgb(148, 185, 255);
+        width: 97%;
+        margin-left: 2%;
+        margin-right: 1%;
+        height: 150px;
+        margin-top: 10px;
+        display: flex;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 5px rgb(127, 170, 250) solid;
+
+    }
+
+    .cursos__etiquetas:hover {
+        animation-name: verCursos;
+        animation-duration: 600ms;
+        animation-fill-mode: forwards;
+    }
+
+    .cursos__etiquetas img {
+        height: 40px;
+        width: 150px;
+    }
+
+    .aptitudes {
+        width: 280px;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+
+    .h2-cursos {
+        text-align: center;
+        font-size: 60px;
+        -webkit-text-stroke: rgba(0, 25, 248, 0.219) 1px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 300px;
+        background-image: url(../imagenes/Diseño\ Arte\ Moderno\ Fondos\ De\ Pantalla\ Antecedentes.jpg);
+        opacity: 90%;
+
+    }
+
+    .footer img {
+        margin-top: 70px;
+        margin-left: 60px;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        border: 2px solid rgb(231, 217, 90);
+
+    }
+
+    .box-certificado {
+        width: 22%;
+        height: 400px;
+    }
+
+    .ver-certificado {
+        margin-top: 150px;
+        margin-left: 140px;
+    }
+
+    .ver-certificado a {
+        text-decoration: none;
+        color: beige;
+    }
+
+    .box-1 {
+        width: 280px;
+    }
+
+
+
+    @keyframes agrandar {
+        0% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale(1.03);
+        }
+    }
+
+    @keyframes verTecnologia {
+        0% {
+            height: 240px;
+            transform: scale(1);
+        }
+
+        100% {
+            height: 300px;
+            transform: scale(1.01, 1);
+        }
+    }
+
+    @keyframes verCursos {
+        0% {
+            height: 150px;
+        }
+
+        100% {
+            height: 200px;
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 300px) {
+    div h1 {
+        font-size: 16px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .headerContainer {
+        width: 100%;
+        height: 120px;
+        background-size: 102%;
+    }
+
+    .logo {
+        margin-left: 10px;
+        width: 200px;
+    }
+
+    .logo:hover {
+        animation-name: agrandar;
+        animation-duration: 700ms;
+    }
+
+    .button {
+        width: 100px;
+        height: 70px;
+        font-size: 8px;
+        padding: 30px;
+    }
+
+    .button:hover {
+        animation-name: agrandar;
+        animation-duration: 800ms;
+        animation-fill-mode: forwards;
+    }
+
+    .btn-1 {
+        margin-left: 0px;
+    }
+
+    .linea {
+        height: 2px;
+        width: 100%;
+        margin-bottom: 1px;
+    }
+
+    .info {
+        width: 100%;
+        height: 490px;
+        background-size: 200%;
+    }
+
+    .presentacion::first-letter {
+        font-size: 150%;
+    }
+
+    h5 {
+        font-size: 5px;
+    }
+
+    .presentacion {
+        width: 80%;
+        margin-top: 30px;
+        margin-left: 10%;
+        font-size: 0.5rem;
+    }
+
+    .button p::first-letter {
+        font-size: 120%;
+    }
+
+    .etiquetas {
+        height: 100px;
+    }
+
+    .etiquetas div {
+        height: 30px;
+        width: 65px;
+        padding: 0px;
+    }
+
+    .etiquetas:hover {
+        animation-fill-mode: forwards;
+        animation-name: verTecnologia;
+        animation-duration: 600ms;
+    }
+
+    .etiquetas a {
+        font-size: 0.5rem;
+    }
+
+    .etiquetas h4 {
+        font-size: 10px;
+    }
+
+    #html {
+        width: 70px;
+        height: 80px;
+    }
+
+    #css {
+        margin-top: 10px;
+        width: 65px;
+        margin-bottom: 5px;
+    }
+
+    #js {
+        margin-top: 10px;
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    #bootstrap {
+        margin-top: 10px;
+        width: 60px;
+        margin-bottom: 10px;
+    }
+
+    #sass {
+        margin-top: 10px;
+        width: 70px;
+        margin-bottom: 7px;
+    }
+
+    #react {
+        margin-top: 10px;
+        width: 70px;
+    }
+
+    .educacion {
+        display: flex;
+        width: 150%;
+    }
+
+    .frase {
+        margin-left: 30%;
+        width: 200px;
+        font-size: 13px;
+    }
+
+    .fondo {
+        width: 100%;
+        height: 110px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .fondo2 {
+        width: 100%;
+        height: 413px;
+        background-size: 120%;
+        background-repeat: repeat;
+    }
+
+    .cursos {
+        width: 100%;
+        height: 550px;
+    }
+
+    .cursos__etiquetas {
+        width: 97%;
+        margin-left: 2%;
+        margin-right: 1%;
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    .cursos__etiquetas:hover {
+        animation-name: verCursos;
+        animation-duration: 600ms;
+        animation-fill-mode: forwards;
+    }
+
+    .cursos__etiquetas img {
+        height: 13px;
+        width: 60px;
+    }
+
+    .aptitudes {
+        width: 60px;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 5px;
+    }
+
+    .h2-cursos {
+        font-size: 25px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 300px;
+    }
+
+    .aviso {
+        font-size: 10px;
+    }
+
+    .footer img {
+        margin-top: 70px;
+        margin-left: 60px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .box-certificado {
+        width: 15%;
+        height: 40px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .ver-certificado {
+        margin-top: 100px;
+        margin-left: 0px;
+        width: 50px;
+        height: 30px;
+    }
+
+    .box-certificado div {
+        padding: 0px;
+    }
+
+    .ver-certificado a {
+        font-size: 5px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .box-1 {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .box-1 span {
+        font-size: 6px;
+        margin-top: 50px;
+    }
+
+    .box-1 h5 {
+        font-size: 8px;
+        width: 70px;
+    }
+
+    div h6 {
+        font-size: 0.4rem;
+        width: 35px;
+    }
+
+    .logo-separador {
+        width: 110px;
+        height: 110px;
+    }
+
+    .fondo3 {
+        width: 100%;
+        height: 1200px;
+        background-image: url(../imagenes/fondo4.jpg);
+        background-size: 270%;
+        
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+    }
+.fondo3 h2{
+    font-family: 'Emblema One', cursive;
+    color: rgb(255, 249, 161);
+    text-align: center;
+}
+    .etiquetas1 {
+        display: grid;
+    }
+
+    .etiquetas2 {
+        display: grid;
+    }
+
+    .etiquetas-proyectos {
+        background-color: rgb(255, 255, 255);
+        width: 90%;
+        height: 250px;
+        margin-top: 20px;
+        border-radius: 4px;
+        overflow: hidden;
+        background-image: url(../imagenes/fondo3.jpg);
+        background-size: 180%;
+    }
+    .etiquetas-proyectos img {
+        width: 99%;
+        border-radius: 4px;
+        border: 1px solid rgba(0, 0, 0, 0.308);
+    }
+    .container-img{
+        width: 100%;
+        height: 65%;
+        padding-left: 2px;
+        padding-top: 2px;
+    
+       
+    }
+    .etiquetas-proyectos:hover {
+        animation-name: agrandar;
+        animation-duration: 400ms;
+        animation-fill-mode: forwards;
+    }
+    .container-descripcion p{
+        background-color: rgba(175, 175, 175, 0.61);
+        text-align: center;
+font-size: 7px;
+margin-bottom: 0px;
+height: 30px;
+    }
+    .tecnologias-usadas{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .tecnologias-usadas img{
+        width: 30px;
+        height: 30px;
+        border: 0px;
+      
+        margin-left: 5px;
+    }
+    .proyectos-button{
+        width: 50%;
+        height: 14%;
+        background-color: rgb(14, 14, 14);
+        color: white;
+        text-align: center;
+        border: 1px wheat solid;
+        border-radius: 4px;
+    }
+    .proyectos-button h5{
+       font-size: 16px;
+       font-family: 'Zen Tokyo Zoo', cursive;
+    }
+    .proyectos-button a{
+        text-decoration: none;
+    }
+    
+    
+
+    @keyframes agrandar {
+        0% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale(1.03);
+        }
+    }
+
+    @keyframes verTecnologia {
+        0% {
+            height: 100px;
+            transform: scale(1);
+        }
+
+        100% {
+            height: 140px;
+            transform: scale(1.01, 1);
+        }
+    }
+
+    @keyframes verCursos {
+        0% {
+            height: 100px;
+        }
+
+        100% {
+            height: 140px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width : 480px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .headerContainer {
+        margin: 5px;
+        padding: 10px;
+        width: 99%;
+        height: 140px;
+        background-size: 100%;
+    }
+
+    .logo {
+        margin-left: 20px;
+        width: 170px;
+    }
+
+    .logo:hover {
+        animation-name: agrandar;
+        animation-duration: 700ms;
+    }
+
+    .button {
+        width: 100px;
+        height: 70px;
+        font-size: 8px;
+        padding: 30px;
+    }
+
+    .button:hover {
+        animation-name: agrandar;
+        animation-duration: 800ms;
+        animation-fill-mode: forwards;
+    }
+
+    .btn-1 {
+        margin-left: 50px;
+    }
+
+    .linea {
+        height: 4px;
+        width: 100%;
+        margin-bottom: 1px;
+    }
+
+    .info {
+        width: 100%;
+        height: 650px;
+        background-size: 150%;
+    }
+
+    .presentacion::first-letter {
+        font-size: 150%;
+    }
+
+    h5 {
+        font-size: 5px;
+    }
+
+    .presentacion {
+        width: 80%;
+        margin-top: 30px;
+        margin-left: 10%;
+        font-size: 0.7rem;
+    }
+
+    .button p::first-letter {
+        font-size: 120%;
+    }
+
+    .etiquetas {
+        height: 170px;
+    }
+
+    .etiquetas div {
+        width: 100px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    .etiquetas:hover {
+        animation-fill-mode: forwards;
+        animation-name: verTecnologia;
+        animation-duration: 600ms;
+    }
+
+    .etiquetas a {
+        font-size: 0.8rem;
+    }
+
+    .etiquetas h4 {
+        font-size: 14px;
+    }
+
+    #html {
+        width: 130px;
+        height: 140px;
+    }
+
+    #css {
+        margin-top: 10px;
+        width: 130px;
+        margin-bottom: 2px;
+    }
+
+    #js {
+        margin-top: 20px;
+        width: 110px;
+        margin-bottom: 11px;
+    }
+
+    #bootstrap {
+        margin-top: 20px;
+        width: 110px;
+        margin-bottom: 11px;
+    }
+
+    #sass {
+        margin-top: 25px;
+        width: 130px;
+    }
+
+    #react {
+        margin-top: 20px;
+        width: 120px;
+    }
+
+    .educacion {
+        display: flex;
+        width: 150%;
+    }
+
+    .frase {
+        margin-left: 50%;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .fondo {
+        width: 100%;
+        height: 150px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .fondo2 {
+        width: 100%;
+        height: 550px;
+        background-size: 120%;
+        background-repeat: repeat;
+    }
+
+    .cursos {
+        width: 100%;
+        height: 550px;
+    }
+
+    .cursos__etiquetas {
+        width: 97%;
+        margin-left: 2%;
+        margin-right: 1%;
+        height: 130px;
+        margin-top: 10px;
+    }
+
+    .cursos__etiquetas:hover {
+        animation-name: verCursos;
+        animation-duration: 600ms;
+        animation-fill-mode: forwards;
+    }
+
+    .cursos__etiquetas img {
+        height: 20px;
+        width: 85px;
+    }
+
+    .aptitudes {
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 8px;
+    }
+
+    .h2-cursos {
+        font-size: 40px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer img {
+        margin-top: 70px;
+        margin-left: 60px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .box-certificado {
+        width: 400px;
+        height: 40px;
+
+    }
+
+    .ver-certificado {
+        margin-top: 140px;
+        margin-left: 0px;
+        width: 70px;
+        height: 40px;
+    }
+
+    .ver-certificado a {
+        font-size: 6px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .box-1 {
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        margin-right: 20px;
+    }
+
+    .box-1 span {
+        font-size: 9px;
+        margin-top: 50px;
+    }
+
+    .box-1 h5 {
+        font-size: 12px;
+        width: 110px;
+    }
+
+    div h6 {
+        font-size: 0.7rem;
+        width: 65px;
+    }
+
+    .logo-separador {
+        width: 140px;
+        height: 140px;
+    }
+
+    @keyframes agrandar {
+        0% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale(1.03);
+        }
+    }
+
+    @keyframes verTecnologia {
+        0% {
+            height: 190px;
+            transform: scale(1);
+        }
+
+        100% {
+            height: 230px;
+            transform: scale(1.01, 1);
+        }
+    }
+
+    @keyframes verCursos {
+        0% {
+            height: 130px;
+        }
+
+        100% {
+            height: 200px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .aviso {
+        display: none;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .headerContainer {
+        margin: 5px;
+        padding: 10px;
+        width: 99%;
+        height: 170px;
+        background-size: 100%;
+    }
+
+    .logo {
+        margin-left: 30px;
+        width: 170px;
+        height: auto;
+    }
+
+    .logo:hover {
+        animation-name: agrandar;
+        animation-duration: 700ms;
+    }
+
+    .button {
+        width: 140px;
+        height: 90px;
+        font-size: 15px;
+        padding: 30px;
+    }
+
+    .button:hover {
+        animation-name: agrandar;
+        animation-duration: 800ms;
+        animation-fill-mode: forwards;
+    }
+
+    .btn-1 {
+        margin-left: 150px;
+    }
+
+    .linea {
+        height: 4px;
+        width: 100%;
+        margin-bottom: 1px;
+    }
+
+    .info {
+        width: 100%;
+        height: 750px;
+        background-size: 120%;
+    }
+
+    .presentacion::first-letter {
+        font-size: 150%;
+    }
+
+    h5 {
+        font-size: 5px;
+    }
+
+    .presentacion {
+        width: 80%;
+        margin-top: 30px;
+        margin-left: 10%;
+        font-size: 1.2rem;
+    }
+
+    .button p::first-letter {
+        font-size: 120%;
+    }
+
+    .etiquetas {
+        height: 170px;
+    }
+
+    .etiquetas:hover {
+        animation-fill-mode: forwards;
+        animation-name: verTecnologia;
+        animation-duration: 600ms;
+    }
+
+    .etiquetas h4 {
+        font-size: 17px;
+    }
+
+    .etiquetas div {
+        width: 150px;
+    }
+
+    .etiquetas a {
+        font-size: 0.8rem;
+    }
+
+    #html {
+        width: 130px;
+        height: 140px;
+    }
+
+    #css {
+        margin-top: 10px;
+        width: 130px;
+        margin-bottom: 2px;
+    }
+
+    #js {
+        margin-top: 20px;
+        width: 110px;
+        margin-bottom: 11px;
+    }
+
+    #bootstrap {
+        margin-top: 20px;
+        width: 110px;
+        margin-bottom: 11px;
+    }
+
+    #sass {
+        margin-top: 25px;
+        width: 130px;
+    }
+
+    #react {
+        margin-top: 20px;
+        width: 120px;
+    }
+
+    .educacion {
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .container-etiquetas {
+        overflow-x: hidden;
+    }
+
+    .frase {
+        margin-left: 70%;
+        width: 200px;
+        font-size: 20px;
+    }
+
+    .fondo {
+        width: 100%;
+        height: 170px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .fondo2 {
+        width: 100%;
+        height: 650px;
+        background-size: 130%;
+    }
+
+    .cursos {
+        width: 100%;
+        height: 550px;
+    }
+
+    .cursos__etiquetas {
+        width: 97%;
+        margin-left: 2%;
+        margin-right: 1%;
+        height: 150px;
+        margin-top: 10px;
+    }
+
+    .cursos__etiquetas:hover {
+        animation-name: verCursos;
+        animation-duration: 600ms;
+        animation-fill-mode: forwards;
+    }
+
+    .cursos__etiquetas img {
+        height: 40px;
+        width: 150px;
+    }
+
+    .aptitudes {
+        width: 160px;
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 12px;
+    }
+
+    .h2-cursos {
+        font-size: 60px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer img {
+        margin-top: 70px;
+        margin-left: 60px;
+        width: 180px;
+        height: 180px;
+        border: 3px solid rgb(231, 217, 90);
+    }
+
+    .box-certificado {
+        width: 30%;
+        height: 400px;
+    }
+
+    .ver-certificado {
+        margin-top: 140px;
+        margin-left: 0px;
+        margin-right: 20px;
+        width: 110px;
+    }
+
+    .ver-certificado a {
+        font-size: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .box-1 {
+        width: 140px;
+    }
+
+    .box-1 span {
+        font-size: 11px;
+    }
+
+    div h6 {
+        font-size: 15px;
+    }
+
+    .logo-separador {
+        width: 160px;
+        height: 160px;
+    }
+
+    @keyframes agrandar {
+        0% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale(1.03);
+        }
+    }
+
+    @keyframes verTecnologia {
+        0% {
+            height: 190px;
+            transform: scale(1);
+        }
+
+        100% {
+            height: 230px;
+            transform: scale(1.01, 1);
+        }
+    }
+
+    @keyframes verCursos {
+        0% {
+            height: 150px;
+        }
+
+        100% {
+            height: 200px;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1000px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .headerContainer {
+        margin: 5px;
+        padding: 10px;
+        width: 99%;
+        height: 200px;
+    }
+
+    .logo {
+        margin-left: 30px;
+        width: 200px;
+        height: auto;
+    }
+
+    .logo:hover {
+        animation-name: agrandar;
+        animation-duration: 700ms;
+        animation-fill-mode: forwards;
+    }
+
+    .button {
+        width: 170px;
+        height: 100px;
+        font-size: 20px;
+        padding: 30px;
+    }
+
+    .button:hover {
+        animation-fill-mode: forwards;
+        animation-name: agrandar;
+        animation-duration: 800ms;
+    }
+
+    .btn-1 {
+        margin-left: 300px;
+    }
+
+    .linea {
+        height: 4px;
+        width: 100%;
+        margin-bottom: 1px;
+    }
+
+    .info {
+        width: 100%;
+        height: 900px;
+        background-size: 140%;
+    }
+
+    .presentacion::first-letter {
+        font-size: 150%;
+    }
+
+    .presentacion {
+        width: 80%;
+        margin-top: 30px;
+        margin-left: 10%;
+        font-size: 1.4rem;
+    }
+
+    .button p::first-letter {
+        font-size: 120%;
+    }
+
+    .etiquetas {
+        width: 190px;
+        height: 240px;
+    }
+
+    .etiquetas:hover {
+        animation-fill-mode: forwards;
+        animation-name: verTecnologia;
+        animation-duration: 600ms;
+    }
+
+    .etiquetas a {
+        font-size: 1.1rem;
+    }
+
+    #html {
+        width: 195px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    #css {
+        margin-top: 13px;
+        width: 180px;
+        margin-bottom: 15px;
+    }
+
+    #js {
+        margin-top: 40px;
+        width: 156px;
+    }
+
+    #bootstrap {
+        margin-top: 35px;
+        width: 160px;
+    }
+
+    #sass {
+        margin-top: 25px;
+        width: 190px;
+        margin-bottom: 15px;
+    }
+
+    #react {
+        margin-top: 26px;
+        width: 170px;
+        margin-bottom: 15px;
+    }
+
+    .educacion {
+        gap: 10px;
+    }
+
+    .frase {
+        margin-left: 76%;
+        width: 300px;
+        font-size: 26px;
+    }
+
+    .fondo {
+        width: 100%;
+        height: 220px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .fondo2 {
+        width: 100%;
+        height: 620px;
+        background-size: 100%;
+    }
+
+    .cursos {
+        width: 100%;
+        height: 650px;
+    }
+
+    .cursos__etiquetas {
+        width: 97%;
+        margin-left: 2%;
+        margin-right: 1%;
+        height: 150px;
+        margin-top: 10px;
+    }
+
+    .cursos__etiquetas:hover {
+        animation-name: verCursos;
+        animation-duration: 600ms;
+        animation-fill-mode: forwards;
+    }
+
+    .cursos__etiquetas img {
+        height: 50px;
+        width: 190px;
+    }
+
+    .aptitudes {
+        width: 400px;
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 13px;
+    }
+
+    .h2-cursos {
+        font-size: 60px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 300px;
+    }
+
+    .footer img {
+        margin-top: 70px;
+        margin-left: 60px;
+        width: 180px;
+        height: 180px;
+    }
+
+    .box-certificado {
+        width: 40%;
+        height: 400px;
+    }
+
+    .ver-certificado {
+        margin-top: 140px;
+        margin-right: 20px;
+    }
+
+    .box-1 {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .box-1 span {
+        margin-top: 50px;
+        font-size: 13px;
+    }
+
+    .box-1 h5 {
+        font-size: 19px;
+    }
+
+    .info h1 {
+        font-size: 30px;
+    }
+
+    div h6 {
+        font-size: 20px;
+    }
+
+    .logo-separador {
+        width: 200px;
+        height: 200px;
+    }
+
+    @keyframes agrandar {
+        0% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale(1.03);
+        }
+    }
+
+    @keyframes verTecnologia {
+        0% {
+            height: 240px;
+            transform: scale(1);
+        }
+
+        100% {
+            height: 300px;
+            transform: scale(1.01, 1);
+        }
+    }
+
+    @keyframes verCursos {
+        0% {
+            height: 150px;
+        }
+
+        100% {
+            height: 200px;
+        }
+    }
+}
