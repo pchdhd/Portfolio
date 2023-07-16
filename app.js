@@ -1,7 +1,7 @@
 const main = document.getElementById("mainContainer")
 
 const addInfo = () =>{
-    main.innerHTML = ''
+    main.innerHTML = ' '
 
     main.innerHTML = ` <section>
     <article>
@@ -102,7 +102,7 @@ const addInfo = () =>{
                     </div>
                     <div class="box-certificado">
                         <div class="ver-certificado btn btn-dark"><a target="_blank"
-                                href="https://coderhouse.com.uy/pages/certificados/63a357a653e3fd000e039d95">Ver
+                                href="https://www.coderhouse.com.uy/certificados/63a357a653e3fd000e039d95">Ver
                                 certificado</a></div>
                     </div>
                 </div>
@@ -123,7 +123,7 @@ const addInfo = () =>{
                     </div>
                     <div class="box-certificado">
                         <div class="ver-certificado btn btn-dark"><a target="_blank"
-                                href="https://coderhouse.com.uy/pages/certificados/640bdb11398c54000e4afd8d">Ver
+                                href="https://www.coderhouse.com.uy/certificados/640bdb11398c54000e4afd8d">Ver
                                 certificado</a></div>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ const addInfo = () =>{
                     </div>
                     <div class="box-certificado">
                         <div class="ver-certificado btn btn-dark"><a target="_blank"
-                                href="https://coderhouse.com.uy/pages/certificados/645a09b1c44eaa0002d64c06">Ver
+                                href="https://www.coderhouse.com.uy/certificados/645a09b1c44eaa0002d64c06">Ver
                                 certificado</a></div>
 
                     </div>
@@ -159,14 +159,135 @@ const addInfo = () =>{
 const addPages = () =>{
     main.innerHTML = ' '
 
-    main.innerHTML = ` `
+    main.innerHTML = ` <section>
+
+
+    <div class="fondo3 ">
+        <h2>Mis Proyectos</h2>
+        <div class="etiquetas1">
+            <div class="etiquetas-proyectos">
+                <div class="container-img"><img src="./imagenes/moncar.PNG" alt="Moncar"></div>
+                <div class="container-descripcion">
+                    <p>Moncar es una pagina de una concecionaria totalmente responsive en donde se
+                        encuentran vehiculos de varios tipos, esta pagina fue mi primer proyecto de
+                        practica, solo utiliza HTML 5, CSS, bootstrap y SASS. </p>
+                    <div class="tecnologias-usadas"><img src="./imagenes/HTML5.png" alt="HTML 5"> <img
+                            src="./imagenes/CSS.png" alt="css"><img src="./imagenes/Bootstrap.png" alt="">
+                        <img src="./imagenes/SASS.png" alt=""></div>
+                </div>
+
+                <div class="d-flex">
+
+                    
+                        <div class="proyectos-button">
+                            <a href="https://poetic-beijinho-813042.netlify.app/index.html" target="_blank">
+                            <h5>Ver Pagina Web</h5>
+                        </a>
+                        </div>
+                    
+
+
+                    
+                        <div class="proyectos-button">
+                            <a href="https://github.com/pchdhd/Preentrega3.github.io" target="_blank">
+                            <h5>Ver Repositorio</h5>
+                        </a>
+                        </div>
+                 
+
+                </div>
+
+            </div>
+            <div class="etiquetas-proyectos">
+                <div class="container-img"><img src="./imagenes/Superdescuento.PNG" alt="Moncar"></div>
+                <div class="container-descripcion">
+                    <p>Superdescuento es una Ecommerce Realizado con Javascript y con la libreria Bootstrap,
+                        es el segundo proyecto propio realizado para la carrera de front end. <br>en esta
+                        pagina prioricé las funcionalidades ante los estilos CSS, solo tiene vista Desktop.
+                    </p>
+                    <div class="tecnologias-usadas"><img src="./imagenes/HTML5.png" alt="HTML 5"> <img
+                            src="./imagenes/CSS.png" alt="css"> <img src="./imagenes/JS.png" alt=""><img
+                            src="./imagenes/Bootstrap.png" alt=""></div>
+                </div>
+                <div class="d-flex">
+
+                    <div class="proyectos-button">
+                        <a href="" target="_blank"><h5>Ver Pagina Web</h5></a>
+                    </div>
+
+
+                    <div class="proyectos-button">
+                        <a href="" target="_blank"> <h5>Ver Repositorio</h5></a>
+                       
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="etiquetas2">
+            <div class="etiquetas-proyectos">
+                <div class="container-img"><img src="./imagenes/moncar.PNG" alt="Moncar"></div>
+                <div class="container-descripcion">
+                    <p> es una pagina nuevamente de un Ecommerce pero realizado con React Js, aquí se suma
+                        la herramienta Firebase con la cual se almacenan los datos de las compras en la
+                        nube.</p>
+                    <div class="tecnologias-usadas"><img src="./imagenes/HTML5.png" alt="HTML 5"> <img
+                            src="./imagenes/CSS.png" alt="css"><img src="./imagenes/JS.png" alt=""><img
+                            src="./imagenes/React.png" alt=""><img src="./imagenes/firebase.png" alt="">
+                    </div>
+                </div>
+                <div class="d-flex">
+
+                    <div class="proyectos-button">
+                        <a href=""> <h5>Ver Pagina Web</h5></a>
+                       
+                    </div>
+
+
+                    <div class="proyectos-button">
+                        <a href=""><h5>Ver Repositorio</h5></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="etiquetas-proyectos">
+                <div class="container-img"><img src="./imagenes/mi-pagina.PNG" alt="Moncar"></div>
+                <div class="container-descripcion">
+                    <p>Esta es mi pagina totalmente responsive de presentación y portfolio.</p>
+                    <div class="tecnologias-usadas"><img src="./imagenes/HTML5.png" alt="HTML 5"> <img
+                            src="./imagenes/CSS.png" alt="css"><img src="./imagenes/JS.png" alt=""><img
+                            src="./imagenes/Bootstrap.png" alt=""></div>
+                </div>
+                <div class="d-flex">
+
+                    <div class="proyectos-button">
+                        <a href="#"><h5>Ver Pagina Web</h5></a>
+                        
+                    </div>
+
+
+                    <div class="proyectos-button">
+                        <a href="https://github.com/Chagaspc20/ProyectoJavascript" target="_blank"><h5>Ver Repositorio</h5></a>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+</section>
+`
 }
 const addContact = () =>{
     main.innerHTML = ' '
 
     main.innerHTML = ` `
 }
-
-
 
 
