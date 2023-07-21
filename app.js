@@ -1,5 +1,10 @@
 const main = document.getElementById("mainContainer")
 
+
+
+
+
+
 const addInfo = () =>{
     main.innerHTML = ' '
 
@@ -284,10 +289,6 @@ const addPages = () =>{
 </section>
 `
 }
-const addContact = () =>{
-    main.innerHTML = ' '
 
-    main.innerHTML = ` `
-}
 
 
