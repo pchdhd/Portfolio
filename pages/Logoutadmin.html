@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./logout.css">
     <title>Logueo de administrador</title>
+
 </head>
 <body>
     <div id="logoutContainer">
         <h1>Logueo</h1>
         <h5>Loguea como administrador para ver los mensajes recibidos</h5>
         <form action="#">
-<label for="nombreUsuario">Nombre Usuario</label>
-<input type="text" id="nombreUsuario">
-<label for="contraseña" >Contraseña</label>
-<input type="text" id="contraseña">
+<h5 class="form-h5">Nombre de usuario</h5>
+<input class="form-input" id="nombreUsuarioInput" type="text" required ="nombreUsuario">
+<h5 class="form-h5">Contraseña</h5>
+<input class="form-input" id="contraseñaInput" type="password" required id="contraseña">
         </form>
-        <div ><button onclick="loguear()">Ingresa</button></div>
+        <div ><button onclick={loguear()}>Ingresar</button></div>
     </div>
     <script src="../recibidos.js"></script>
 </body>

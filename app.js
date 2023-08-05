@@ -1,9 +1,118 @@
 const main = document.getElementById("mainContainer")
 
 
+const addExp = () => {
+    main.innerHTML = ''
+    
+    main.innerHTML = ` <section>
+                <div class="fondo-4">
+                    <article>
+                        <div class="etiquetas-2">
+                            <h5>Mi experiencia
+                            </h5>
+                            <div class="etiquetas-container">
+                                <div class="etiquetas-experiencia">
+                                    <img class="mt-2 tata" src="./imagenes/Ta-ta.webp" alt="">
+                                    <h5>Centro Logistico TATA</h5>
+                                    <div class="etiqueta-exp">
+                                        <div>
+                                            <p>Fecha de ingreso: 1/5/2021. </p>
+                                        </div>
+                                        <div>
+                                            <p>Area en la que me desempeñé: Aux. de deposito.</p>
+                                        </div>
+                                        <div>
+                                            <p>Fecha de egreso: 1/6/2021.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="etiquetas-experiencia">
+                                    <img class="me-2" src="./imagenes/igm.png" alt="">
+                                    <h5>Instituto Geografico Militar</h5>
+                                    <div class="etiqueta-exp">
+                                        <div>
+                                            <p>Fecha de ingreso: 1/6/2021. </p>
+                                        </div>
+                                        <div>
+                                            <p>Area en la que me desempeño: Administración.</p>
+                                        </div>
+                                        <div>
+                                            <p>Grado Actual: Sdo 1ª</p>
+                                        </div>
+                                        <div>
+                                            <p>Habilidades aprendidas: Word y Excel.</p>
+                                        </div>
+                                        <div>
+                                            <p>Actualmente en actividad.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="etiquetas-2">
+                            <h5>Mis estudios</h5>
+                            <div class="etiquetas-container">
+                                <div class="etiquetas-experiencia">
+                                    <h5>Ciclo Basico</h5>
+                                    <div class="etiqueta-exp">
+
+                                        <div>
+                                            <p>Cursado en <a target="_blank"
+                                                    href="https://liceo52villagarcia.webnode.es/">Liceo 52</a>
+                                                montevideo,
+                                                uruguay.</p>
+                                        </div>
+
+                                        <div>
+                                            <p>Fecha de ingreso: 2014.</p>
+                                        </div>
+                                        <div>
+                                            <p>Fecha de egreso: 2017.</p>
+                                        </div>
+                                        <div>
+                                            <p>Sin Materias Pendientes.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="etiquetas-experiencia">
+                                    <h5>Bachillerato</h5>
+                                    <div class="etiqueta-exp">
+                                        <div>
+                                            <p>Cursado en <a target="_blank"
+                                                    href="https://liceo-n-58-mario-benedetti-oficial.webnode.es/">Liceo
+                                                    58</a> montevideo,
+                                                uruguay.</p>
+                                        </div>
+
+                                        <div>
+                                            <p>Fecha de ingreso: 2018.</p>
+                                        </div>
+                                        <div>
+                                            <p>Fecha de egreso: 2021.</p>
+                                        </div>
+                                        <div>
+                                            <p>4 Materias Pendientes 6°.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+        </div>
+        </div>
 
 
 
+
+        </article>
+
+
+        </div>
+        </section>`
+}
 
 const addInfo = () =>{
     main.innerHTML = ' '
@@ -143,8 +252,7 @@ const addInfo = () =>{
                     </div>
                     <div class="ms-sm-0 d-flex">
                         <h6 class="mt-4">Aptitudes aprendidas:</h6>
-                        <p class="aptitudes">HTML, CSS, Bootstrap, SASS, Git, GitHub, SEO Basico, Diseño
-                            Responsive.</p>
+                        <p class="aptitudes">Uso e intercambio de datos entre componentes a través de props, uso de hooks useEffect y useState, promesas y asincronía, React router, uso de Context, Firebase.</p>
 
                     </div>
                     <div class="box-certificado">
@@ -204,7 +312,7 @@ const addPages = () =>{
 
             </div>
             <div class="etiquetas-proyectos">
-                <div class="container-img"><img src="./imagenes/Superdescuento.PNG" alt="Moncar"></div>
+                <div class="container-img"><img src="./imagenes/Superdescuento.PNG" alt="Superdescuento"></div>
                 <div class="container-descripcion">
                     <p>Superdescuento es una Ecommerce Realizado con Javascript y con la libreria Bootstrap,
                         es el segundo proyecto propio realizado para la carrera de front end. <br>en esta
@@ -217,7 +325,7 @@ const addPages = () =>{
                 <div class="d-flex">
 
                     <div class="proyectos-button">
-                        <a href="" target="_blank"><h5>Ver Pagina Web</h5></a>
+                        <a href="https://64ce74ae203934541ca4a5b6--spontaneous-twilight-f5836f.netlify.app/" target="_blank"><h5>Ver Pagina Web</h5></a>
                     </div>
 
 
@@ -291,4 +399,4 @@ const addPages = () =>{
 }
 
 
-
+addInfo()
