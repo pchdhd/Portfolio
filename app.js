@@ -302,7 +302,7 @@ const addPages = () =>{
 
                     
                         <div class="proyectos-button">
-                            <a href="https://github.com/pchdhd/Preentrega3.github.io" target="_blank">
+                            <a href="https://github.com/pchdhd/Moncar" target="_blank">
                             <h5>Ver Repositorio</h5>
                         </a>
                         </div>
@@ -330,7 +330,7 @@ const addPages = () =>{
 
 
                     <div class="proyectos-button">
-                        <a href="" target="_blank"> <h5>Ver Repositorio</h5></a>
+                        <a href="https://github.com/pchdhd/Ecommerce-JS" target="_blank"> <h5>Ver Repositorio</h5></a>
                        
                     </div>
 
@@ -339,9 +339,9 @@ const addPages = () =>{
         </div>
         <div class="etiquetas2">
             <div class="etiquetas-proyectos">
-                <div class="container-img"><img src="./imagenes/moncar.PNG" alt="Moncar"></div>
+                <div class="container-img"><img src="./imagenes/proyecto-reactjs.PNG" alt="Moncar"></div>
                 <div class="container-descripcion">
-                    <p> es una pagina nuevamente de un Ecommerce pero realizado con React Js, aquí se suma
+                    <p> Es una pagina nuevamente de un Ecommerce pero realizado con React Js, aquí se suma
                         la herramienta Firebase con la cual se almacenan los datos de las compras en la
                         nube.</p>
                     <div class="tecnologias-usadas"><img src="./imagenes/HTML5.png" alt="HTML 5"> <img
@@ -352,13 +352,13 @@ const addPages = () =>{
                 <div class="d-flex">
 
                     <div class="proyectos-button">
-                        <a href=""> <h5>Ver Pagina Web</h5></a>
+                        <a href="https://marcosecommerce.000webhostapp.com/"> <h5>Ver Pagina Web</h5></a>
                        
                     </div>
 
 
                     <div class="proyectos-button">
-                        <a href=""><h5>Ver Repositorio</h5></a>
+                        <a href="https://github.com/pchdhd/Ecommerce-React-JS"><h5>Ver Repositorio</h5></a>
                     </div>
 
                 </div>
@@ -380,7 +380,7 @@ const addPages = () =>{
 
 
                     <div class="proyectos-button">
-                        <a href="https://github.com/Chagaspc20/ProyectoJavascript" target="_blank"><h5>Ver Repositorio</h5></a>
+                        <a href="https://github.com/pchdhd/Portfolio" target="_blank"><h5>Ver Repositorio</h5></a>
                         
                     </div>
 
